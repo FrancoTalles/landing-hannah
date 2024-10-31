@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #4a635d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #4a635d;
+}
+
+.section {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+    
+}
+
+.section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img {
+        max-width: 50%;
+    }
+}
+
+
+
+.services ul, .online-evaluation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services ul li, .online-evaluation ul li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.services ul li::before, .online-evaluation ul li::before {
+    content: "•";
+    color: #4a635d;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.contact-info {
+    font-size: 1.2em;
+    color: #4a635d;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #4a635d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4a635d;
+    color: white;
+    margin-top: 30px;
+
+}
